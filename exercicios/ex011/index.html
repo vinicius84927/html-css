@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="py-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simpesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width:730px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1030px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aorender a reproduzir audios em HTML</p>
+    <audio controls>
+        <source src="midia/Bad Beat - Dyalla.mp3" type="audio/mpeg">
+        <source src="midia/Bad Beat - Dyalla.mp3" type="audio/ogg">
+        <p>Infelizmente seu navegador ão consegue reproduzir áudio. <a href="midia/Bad Beat - Dyalla.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>
